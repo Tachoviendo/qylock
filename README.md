@@ -18,13 +18,13 @@
   <img src="https://img.shields.io/badge/-HELLO%20THERE!!-e0af68?style=for-the-badge&labelColor=1a1b26&logo=coffeescript&logoColor=white" height="60" />
 </p>
 
-<p>Welcome to <b>Qylock</b>! Pretty much a bunch of lockscreen themes I've put together for SDDM and Quickshell. I've always loved the "cozy" and minimalist vibe, so I've tried to keep everything looking clean~ </p>
+<p>Welcome to <b>Qylock</b>! Pretty much a bunch of lockscreen themes I've put together for SDDM and Quickshell. Enjoyyyyyyy!!!! </p>
 
-<p><i>Hope ya find something that fits your setup! Thanks for stopping by!!</i></p>
+<p><i>Hope ya find something that fits your setup~</i></p>
 <br>
 
 > [!IMPORTANT]
-> Have a problem? Please check the [FAQ](#faq) thoroughly before opening a new issue. Most common setup errors are already documented there!
+> Have a problem? Please check the [FAQ](#faq) before opening a new issue. Most common setup errors are already documented there!
 
 <br>
 
@@ -71,9 +71,8 @@ Some themes rely on fonts that cannot be bundled here (copyright issues). Downlo
 <br>
 
 #### 🚀 INSTALLATION
-
-> [!TIP]
-> Don't want to install everything manually? Running the script below will handle the installation and configuration for you!
+> [!NOTE]
+> These themes are made and tested only on arch linux, but the script will work in most of the distro's out there, so all you gotta do is get the dependencies right as its different for all the distros.
 
 ```sh
 chmod +x sddm.sh && ./sddm.sh
@@ -92,6 +91,7 @@ chmod +x sddm.sh && ./sddm.sh
 <br>
 
 Start by installing these dependencies using the package manager of your distro. (Note: Names might vary depending on your distribution.)
+
 #### 📦 DEPENDENCIES
 
 | | Packages |
@@ -232,7 +232,7 @@ If you encounter library errors at the login screen:
         <b>Pixel · Skyscrapers</b><br><br>
         <img src="./Assets/pixel_skyscrapers.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
       </td>
-      <td align="center" width="50%" style="padding: 15px; border: none;">
+      <td align="center" width="50%" style="padding: so loud..15px; border: none;">
         <b>Enfield</b><br><br>
         <img src="./Assets/enfield.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);"/>
       </td>
