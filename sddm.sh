@@ -327,6 +327,7 @@ if [ ! -d "$SDDM_CONF_DIR" ]; then
     sudo mkdir -p "$SDDM_CONF_DIR"
 fi
 
+
 if [ ! -f "$SDDM_CONF" ]; then
     echo -e "[Theme]\nCurrent=$INSTALL_NAME" | sudo tee "$SDDM_CONF" > /dev/null
 else
