@@ -203,7 +203,14 @@ fi' \
             config = lib.mkIf cfg.enable (lib.mkMerge [
               (lib.mkIf cfg.sddm.enable {
                 services.displayManager.sddm.theme = cfg.theme;
-                services.displayManager.sddm.extraPackages = [ sddmPkg ];
+                services.displayManager.sddm.extraPackages = [
+                  sddmPkg
+                  # QML modules the themes import (e.g. Qt5Compat.GraphicalEffects).
+                  # extraPackages contributes lib/qt-6/qml to the greeter's QML_IMPORT_PATH.
+                  pkgs.qt6.qt5compat
+                  pkgs.qt6.qtmultimedia
+                  pkgs.qt6.qtsvg
+                ];
                 environment.systemPackages = [ sddmPkg ];
               })
               (lib.mkIf cfg.quickshell.enable {
