@@ -35,9 +35,9 @@ Rectangle {
     NumberAnimation { id: fadeAnim; target: root; property: "ui"; from: 0; to: 1; duration: 1200; easing.type: Easing.OutCubic }
 
     // Background
-    Image {
-        anchors.fill: parent; source: "bg.png"
-        fillMode: Image.PreserveAspectCrop; asynchronous: true; opacity: root.ui
+    Loader {
+        anchors.fill: parent; opacity: root.ui
+        source: "BackgroundVideo.qml"
     }
     Rectangle {
         anchors.fill: parent; visible: root.ui < 1.0
